@@ -1,0 +1,104 @@
+/* FONTS */
+/* red-hat-display-Medium */
+@font-face {
+  font-display: swap;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/red-hat-display-v21-latin-500.woff2") format("woff2");
+}
+
+/* red-hat-display-Black */
+@font-face {
+  font-display: swap;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/red-hat-display-v21-latin-900.woff2") format("woff2");
+}
+
+/* TEXT PRESETS */
+
+.text-preset-1,
+.text-preset-2,
+.text-preset-3,
+.text-preset-5 {
+  font-weight: 900;
+}
+
+.text-preset-1,
+.text-preset-2,
+.text-preset-3,
+.text-preset-4 {
+  line-height: 110%;
+}
+
+/* Black */
+.text-preset-1 {
+  font-size: 4rem;
+}
+
+.text-preset-2 {
+  font-size: 2.5rem;
+}
+
+.text-preset-3 {
+  letter-spacing: 0.25rem;
+}
+
+.text-preset-3,
+.text-preset-5 {
+  font-size: 1rem;
+}
+
+.text-preset-5 {
+  line-height: 150%;
+}
+
+/* Medium */
+.text-preset-4 {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+:root {
+  /* COLORS */
+  --cyan-600: #4d96a9;
+  --cyan-300: #8fe3f9;
+  --purple-600: #855fb1;
+  --purple-300: #d9b8ff;
+  --slate-900: #28283d;
+  --slate-600: #87879d;
+  --slate-300: #d1d1df;
+  --white: #fafafa;
+
+  --primary-text: var(--slate-600);
+  --heading: var(--slate-900);
+  --footer-heading: var(--white);
+  --accent: var(--cyan-600);
+  --secondary-accent: var(--purple-600);
+  --main-version: var(--cyan-300);
+  --footer-version: var(--purple-300);
+  --graphics: var(--slate-300);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+header,
+footer,
+main,
+p,
+h1 {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: "Red Hat Display", sans-serif;
+}
