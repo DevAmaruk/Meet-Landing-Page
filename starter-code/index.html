@@ -32,8 +32,12 @@
         </p>
       </section>
       <div class="cta-buttons">
-        <button type="button">Download v1.3</button>
-        <button type="button">What is it?</button>
+        <button type="button" class="text-preset-5 first-button">
+          <span>Download</span> <span>v1.3</span>
+        </button>
+        <button type="button" class="text-preset-5 second-button">
+          What is it?
+        </button>
       </div>
       <section class="main-content">
         <svg
@@ -41,10 +45,11 @@
           height="136"
           viewBox="0 0 56 136"
           fill="none"
+          class="step-number"
           xmlns="http://www.w3.org/2000/svg"
         >
           <!-- Vertical line -->
-          <rect x="27.5" width="1" height="80" fill="#D1D1DF" />
+          <rect x="27.5" width="1.5" height="80" fill="#d1d1df" />
 
           <!-- Circle -->
           <circle cx="28" cy="108" r="27.5" fill="#FAFAFA" stroke="#D1D1DF" />
@@ -55,11 +60,10 @@
             y="108"
             text-anchor="middle"
             dominant-baseline="central"
-            font-family="sans-serif"
-            font-size="16"
-            fill="#333"
+            class="text-preset-5"
+            style="fill: var(--primary-text)"
           >
-            1
+            01
           </text>
         </svg>
         <section class="group-pictures">
@@ -78,26 +82,25 @@
           <img src="./assets/desktop/image-man-texting.jpg" alt="man texting" />
         </section>
         <section class="main-text-content">
-          <p>Built for modern use</p>
-          <h2>Smarter meetings, all in one place</h2>
-          <p>
+          <p class="text-preset-3">Built for modern use</p>
+          <h2 class="text-preset-2">Smarter meetings, all in one place</h2>
+          <p class="text-preset-4">
             Send messages, share files, show your screen, and record your
             meetings — all in one workspace. Control who can join with
             invite-only team access, data encryption, and data export.
           </p>
         </section>
       </section>
-    </main>
-    <footer>
       <svg
         width="56"
         height="136"
         viewBox="0 0 56 136"
         fill="none"
+        class="second-step-number"
         xmlns="http://www.w3.org/2000/svg"
       >
         <!-- Vertical line -->
-        <rect x="27.5" width="1" height="80" fill="#D1D1DF" />
+        <rect x="27.5" width="1.5" height="80" fill="#D1D1DF" />
 
         <!-- Circle -->
         <circle cx="28" cy="108" r="27.5" fill="#FAFAFA" stroke="#D1D1DF" />
@@ -108,21 +111,31 @@
           y="108"
           text-anchor="middle"
           dominant-baseline="central"
-          font-family="sans-serif"
-          font-size="16"
-          fill="#333"
+          class="text-preset-5"
+          style="fill: var(--primary-text)"
         >
-          2
+          02
         </text>
       </svg>
-      <div class="image-footer-overlay"></div>
+    </main>
+    <footer>
+      <div class="footer-image-container">
+        <img
+          src="./assets/mobile/image-footer.jpg"
+          alt=""
+          class="image-footer-overlay"
+        />
+      </div>
       <section class="footer-text">
-        <h3>Experience more together</h3>
-        <p>
+        <h3 class="text-preset-3">Experience more together</h3>
+        <p class="text-preset-4">
           Stay connected with reliable HD meetings and unlimited one-on-one and
           group video sessions.
         </p>
-        <button>Download v1.3</button>
+        <button type="button" class="text-preset-5 first-button">
+          <span class="download-text">Download</span>
+          <span class="version">v1.3</span>
+        </button>
       </section>
     </footer>
   </body>
