@@ -17,50 +17,6 @@
   src: url("../fonts/red-hat-display-v21-latin-900.woff2") format("woff2");
 }
 
-/* TEXT PRESETS */
-
-.text-preset-1,
-.text-preset-2,
-.text-preset-3,
-.text-preset-5 {
-  font-weight: 900;
-}
-
-.text-preset-1,
-.text-preset-2,
-.text-preset-3,
-.text-preset-4 {
-  line-height: 110%;
-}
-
-/* Black */
-.text-preset-1 {
-  font-size: 4rem;
-}
-
-.text-preset-2 {
-  font-size: 2.5rem;
-}
-
-.text-preset-3 {
-  letter-spacing: 0.25rem;
-}
-
-.text-preset-3,
-.text-preset-5 {
-  font-size: 1rem;
-}
-
-.text-preset-5 {
-  line-height: 150%;
-}
-
-/* Medium */
-.text-preset-4 {
-  font-weight: 500;
-  font-size: 1.125rem;
-}
-
 :root {
   /* COLORS */
   --cyan-600: #4d96a9;
@@ -103,4 +59,48 @@ h3 {
 body {
   width: 100%;
   font-family: "Red Hat Display", sans-serif;
+}
+
+/* TEXT PRESETS */
+
+.text-preset-1,
+.text-preset-2,
+.text-preset-3,
+.text-preset-5 {
+  font-weight: 900;
+}
+
+.text-preset-1,
+.text-preset-2,
+.text-preset-3,
+.text-preset-4 {
+  line-height: 1.1;
+}
+
+/* Black */
+.text-preset-1 {
+  font-size: 4rem;
+}
+
+.text-preset-2 {
+  font-size: 2.5rem;
+}
+
+.text-preset-3 {
+  letter-spacing: 0.25rem;
+}
+
+.text-preset-3,
+.text-preset-5 {
+  font-size: 1rem;
+}
+
+.text-preset-5 {
+  line-height: 1.5;
+}
+
+/* Medium */
+.text-preset-4 {
+  font-weight: 500;
+  font-size: 1.125rem;
 }
