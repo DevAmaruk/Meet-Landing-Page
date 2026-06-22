@@ -370,6 +370,7 @@ footer {
   .footer-text {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 7rem 10rem;
   }
 
