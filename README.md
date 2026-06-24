@@ -27,17 +27,17 @@ Users should be able to:
 
 <p align=center>Mobile</p>
 <p align=center>
-<img src="../assets/meet-mobile.png" />
+<img src="./assets/meet-mobile.png" />
 </p>
 
 <p align=center>Tablet</p>
 <p align=center>
-<img src="../assets/meet-tablet.png" />
+<img src="./assets/meet-tablet.png" />
 </p>
 
 <p align=center>Desktop</p>
 <p align=center>
-<img src="../assets/meet-desktop.png" />
+<img src="./assets/meet-desktop.png" />
 </p>
 
 ### Links
