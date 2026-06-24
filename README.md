@@ -11,11 +11,8 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,17 +27,17 @@ Users should be able to:
 
 <p align=center>Mobile</p>
 <p align=center>
-<img src="starter-code/assets/meet-mobile.png" />
+<img src="../assets/meet-mobile.png" />
 </p>
 
 <p align=center>Tablet</p>
 <p align=center>
-<img src="starter-code/assets/meet-tablet.png" />
+<img src="../assets/meet-tablet.png" />
 </p>
 
 <p align=center>Desktop</p>
 <p align=center>
-<img src="starter-code/assets/meet-desktop.png" />
+<img src="../assets/meet-desktop.png" />
 </p>
 
 ### Links
